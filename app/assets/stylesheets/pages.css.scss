@@ -3,8 +3,7 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 .title1 {
 	background-image: image-url("gopro2.jpg");
-	min-height: 700px;
-	margin-top: -190px;
+	min-height: 600px;
 	background-repeat: no-repeat;
 	background-size: cover;
 	-moz-background-size: cover;
@@ -13,6 +12,10 @@
 }
 
 .highlight {
-	margin-top: 570px;
-	background-color: rgba(255,255,255, 1.0);
+	margin-top: 225px;
+	text-shadow: 0px 1px 3px black;
+	padding: 5px;
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
 }
+
