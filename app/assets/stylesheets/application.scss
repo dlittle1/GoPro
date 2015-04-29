@@ -15,7 +15,8 @@
  */
 	@import "bootstrap-sprockets";
 	@import "bootstrap";
-	@import url(http://fonts.googleapis.com/css?family=Dosis:400,600|Architects+Daughter);
+	@import url(http://fonts.googleapis.com/css?family=Roboto:400,300);
+	@import url(http://fonts.googleapis.com/css?family=Righteous);
 	
 	body {
 		margin-top: -50px;
@@ -23,4 +24,13 @@
 	
 	.navbar {
 		background-color: white;
+		
+	}
+	
+	h1 {
+		font-family: 'Righteous', cursive;
+	}
+	
+	p {
+		font-family: 'Roboto', sans-serif;
 	}
