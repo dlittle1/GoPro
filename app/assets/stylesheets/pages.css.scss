@@ -2,8 +2,8 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 .title1 {
-	background-image: image-url("gopro2.jpg");
-	min-height: 600px;
+	background-image: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.3) ), image-url("gopro2.jpg");
+	min-height: 800px;
 	background-repeat: no-repeat;
 	background-size: cover;
 	-moz-background-size: cover;
@@ -12,8 +12,8 @@
 }
 
 .highlight {
-	margin-top: 225px;
-	text-shadow: 0px 1px 3px black;
+	margin-top: 150px;
+	text-shadow: 0px 0px 20px black;
 	padding: 5px;
 	border-top-right-radius: 10px;
 	border-bottom-right-radius: 10px;
