@@ -12,5 +12,7 @@ class PagesController < ApplicationController
   end
   
   
-  
+  def proximity
+    
+  end
 end

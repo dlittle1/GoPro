@@ -7,10 +7,17 @@
 	
 }
 
-.highlight {
+.jumbotron {
+	background-color: transparent !important;
 	
-	text-shadow: 0px 0px 20px black;
-	padding: 5px;
+}
+
+.highlight {
+	background-color: rgba(15,17,37,0.6) !important;
+	margin-right: 300px;
+	
+	text-shadow: 0px 0px 10px black;
+	padding-top: -5px;
 	border-top-right-radius: 10px;
 	border-bottom-right-radius: 10px;
 }
