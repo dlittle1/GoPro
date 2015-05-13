@@ -4,4 +4,5 @@ Rails.application.routes.draw do
   root 'pages#home'
   
   get 'proximity' => 'pages#proximity' 
+  get 'alignment' => 'pages#alignment' 
 end

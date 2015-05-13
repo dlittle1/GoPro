@@ -15,4 +15,9 @@ class PagesController < ApplicationController
   def proximity
     
   end
+  
+  def alignment
+    
+  end
+  
 end
