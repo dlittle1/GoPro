@@ -23,4 +23,8 @@ class PagesController < ApplicationController
   def contrast
     
   end
+  
+  def typography
+    
+  end
 end
