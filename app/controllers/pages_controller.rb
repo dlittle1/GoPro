@@ -20,4 +20,7 @@ class PagesController < ApplicationController
     
   end
   
+  def contrast
+    
+  end
 end
