@@ -1,7 +1,7 @@
 Rails.application.routes.draw do
 
   devise_for :users
-  root 'pages#home'
+  root 'home#home'
   
   get 'proximity' => 'pages#proximity' 
   get 'alignment' => 'pages#alignment' 
