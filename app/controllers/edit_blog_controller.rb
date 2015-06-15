@@ -1,0 +1,2 @@
+class EditBlogController < ApplicationController
+end

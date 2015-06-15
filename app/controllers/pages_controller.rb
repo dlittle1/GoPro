@@ -1,4 +1,4 @@
-class ClassAssignemntsController < ApplicationController
+class PagesController < ApplicationController
   def about
     
   end
