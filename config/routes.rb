@@ -3,8 +3,8 @@ Rails.application.routes.draw do
   devise_for :users
   root 'home#home'
   
-  get 'proximity' => 'pages#proximity' 
-  get 'alignment' => 'pages#alignment' 
-  get 'contrast' => 'pages#contrast' 
-  get 'typography' => 'pages#typography'
+  get 'proximity' => 'classAsignments#proximity' 
+  get 'alignment' => 'classAsignments#alignment' 
+  get 'contrast' => 'classAsignments#contrast' 
+  get 'typography' => 'classAsignments#typography'
 end
