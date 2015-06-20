@@ -21,8 +21,9 @@
 	font-family: 'Righteous', cursive;
 }
 
-.welcome p {
+.welcome h2, h3, h4, h5, p {
 	font-family: 'Roboto', sans-serif;
+	color: white;
 }
 
 .title1 {
@@ -39,7 +40,7 @@
 .highlight {
 	background-color: rgba(15,17,37,0.6) !important;
 	margin-right: 300px;
-	
+	color: white;
 	text-shadow: 0px 0px 10px black;
 	padding-top: -5px;
 	border-top-right-radius: 10px;

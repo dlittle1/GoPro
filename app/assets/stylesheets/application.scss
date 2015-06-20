@@ -27,7 +27,7 @@
 	}
 	
 	body {
-		background-color: black;
+		background-color: white;
 		
 	}
 	
@@ -49,10 +49,18 @@
 	
 	h1 {
 		font-family: 'Righteous', cursive;
-		color: #3279b6;
+		color: #333333;
+		font-size: 4em;
 	}
 	
-	p {
+	h2, h3, h4, h5, p, a {
 		font-family: 'Roboto', sans-serif;
-		color: white;
+		color: #333333;
+	}
+	
+	.right-line {
+		background-color: #333333;
+		width: 1px;
+		height: 100%;
+		position: absolute;
 	}
