@@ -26,8 +26,21 @@
 	  background-size: cover;
 	}
 	
-	.navbar {
+	body {
+		background-color: black;
+		
+	}
+	
+	.welcome .navbar {
 		background-color: transparent;
+		border-color: transparent;
+		a {
+			color: white !important;
+		}
+	}
+	
+	.navbar {
+		background-color: #3279b6;
 		border-color: transparent;
 		a {
 			color: white !important;
@@ -36,8 +49,10 @@
 	
 	h1 {
 		font-family: 'Righteous', cursive;
+		color: #3279b6;
 	}
 	
 	p {
 		font-family: 'Roboto', sans-serif;
+		color: white;
 	}

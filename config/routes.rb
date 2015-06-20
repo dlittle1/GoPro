@@ -17,7 +17,7 @@ Rails.application.routes.draw do
   
   get 'qualities' => 'edit_qualities#index'
   get 'examples' => 'video_examples#index'
-  get 'blog' => 'blog#home'
+  get 'blog' => 'blog#index'
   
   get 'proximity' => 'pages#proximity' 
   get 'alignment' => 'pages#alignment' 

@@ -14,14 +14,14 @@
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
         
       <ul class="nav navbar-nav navbar-right" >
-        <li><a href="#">Edits</a></li>
-				<li><a href="#">Video</a></li>
+        <li><%= link_to "Edit options", qualities_path %></li>
+				<li><%= link_to "Video examples", examples_path %></li>
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false" >Blog <span class="caret"></span></a>
           <ul class="dropdown-menu" role="menu">
-            <li><a href="#">Beginner tutorials</a></li>
-            <li><a href="#">How to film</a></li>
-            <li><a href="#">How to edit</a></li>
+            <li><%= link_to "Getting started", blog_start_path %></li>
+            <li><%= link_to "Film skills", blog_film_path %></li>
+            <li><%= link_to "Tutorials", blog_tutorial_path %></li>
             <li class="divider"></li>
             <li><a href="#">my profile/login</a></li>
           </ul>

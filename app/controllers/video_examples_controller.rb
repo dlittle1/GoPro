@@ -1,4 +1,7 @@
 class VideoExamplesController < ApplicationController
+  def index
+  end
+  
   def sports
   end
 
