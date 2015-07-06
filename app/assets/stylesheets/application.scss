@@ -19,7 +19,7 @@
 	@import url(http://fonts.googleapis.com/css?family=Righteous);
 	
 	.welcome { 
-	  background: url(gopro2.jpg) no-repeat center center fixed; 
+	  background: url(surfing.jpg) no-repeat center center fixed; 
 	  -webkit-background-size: cover;
 	  -moz-background-size: cover;
 	  -o-background-size: cover;
@@ -31,21 +31,18 @@
 		
 	}
 	
-	.welcome .navbar {
-		background-color: transparent;
-		border-color: transparent;
-		a {
-			color: white !important;
-		}
-	}
-	
 	.navbar {
-		background-color: #3279b6;
+		background-color: #3279b6 !important;
 		border-color: transparent;
 		a {
 			color: white !important;
 		}
+		
 	}
+	.navbar-default .navbar-nav .open .dropdown-menu>li>a,.navbar-default .navbar-nav .open .dropdown-menu {
+	    background-color: #3279b6;
+	    color: white;
+	  }
 	
 	h1 {
 		font-family: 'Righteous', cursive;
