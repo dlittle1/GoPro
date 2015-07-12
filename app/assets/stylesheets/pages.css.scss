@@ -29,7 +29,12 @@
 .title1 {
 	background-color: transparent !important;
 	position: relative;
+	margin-left: 30px;
 	
+	
+}
+.title1 p {
+	color: white;
 }
 
 .jumbotron {
@@ -38,8 +43,7 @@
 }
 
 .highlight {
-	position: absolute;
-	left: 30px;
+	margin-top: -20px;
 	color: white;
 	text-shadow: 0px 0px 10px black;
 
