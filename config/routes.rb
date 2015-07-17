@@ -23,4 +23,6 @@ Rails.application.routes.draw do
   get 'alignment' => 'pages#alignment' 
   get 'contrast' => 'pages#contrast' 
   get 'typography' => 'pages#typography'
+  get 'presentation' => 'pages#presentation'
+  get 'plan' => 'pages#plan'
 end

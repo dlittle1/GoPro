@@ -22,4 +22,12 @@ class PagesController < ApplicationController
   def typography
     
   end
+  
+  def presentation
+    
+  end
+  
+  def plan
+    
+  end
 end

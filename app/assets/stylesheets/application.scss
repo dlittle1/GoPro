@@ -18,6 +18,32 @@
 	@import url(http://fonts.googleapis.com/css?family=Roboto:400,300);
 	@import url(http://fonts.googleapis.com/css?family=Righteous);
 	
+	/* the media queries are as follows:
+ 	 -Large desktops and laptops-
+	@media (min-width: 1200px) {
+
+	}
+	 -Landscape tablets and medium desktops- 
+	@media (min-width: 992px) and (max-width: 1199px) {
+
+	}
+
+ 	 -Portrait tablets and small desktops- 
+	@media (min-width: 768px) and (max-width: 991px) {
+
+	}
+	
+	 -Landscape phones and portrait tablets-
+	@media (max-width: 767px) {
+
+	}
+
+	 -Portrait phones and smaller-
+	@media (max-width: 480px) {
+
+	}
+	*/
+	
 	.welcome { 
 	  background: url(surfing.jpg) no-repeat center center fixed; 
 	  -webkit-background-size: cover;
@@ -28,7 +54,7 @@
 	
 	body {
 		background-color: white;
-		
+		margin-bottom: 50px;
 	}
 	
 	.navbar {
@@ -63,10 +89,22 @@
 	}
 	
 	#footer{
-		background-color: lightgrey;
+		background-color: rgba(59,78,103,0.6);
+		li > a:hover {
+			background-color: transparent;
+			    color: lightgrey;
+		}
 	}
 	
-	#footer p{
-		color: black;
+	#footer a{
+		color: white;
+	}
+	
+	#footer .dropdown-menu {
+		background-color: rgba(59,78,103,0.5);
+		
+	}
+	#presentation {
+		margin-left: 30px;
 	}
 		
