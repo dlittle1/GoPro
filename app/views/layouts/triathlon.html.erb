@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>GoPro</title>
+  <%= stylesheet_link_tag    'triathlon', media: 'screen', 'data-turbolinks-track' => true%>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+	<link href='http://fonts.googleapis.com/css?family=Pathway+Gothic+One|Cinzel' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Megrim' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+</head>
+<body class="<% if @home%>homepage<% elsif @registration%>registration<% elsif @route %>route<% elsif @credits%>credits<% end %>">
+	<p class="notice"><%= notice %></p>
+  <p class="alert"><%= alert %></p>
+	<%= render 'layouts/triNav' %>
+	<div class="top_bar">
+<%= yield %>
+	<%= render 'layouts/triFooter' %>
+
+</body>
+</html>

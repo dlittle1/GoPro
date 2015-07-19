@@ -1,0 +1,126 @@
+@import "bootstrap-sprockets";
+@import "bootstrap";
+@import url(http://fonts.googleapis.com/css?family=Megrim);
+@import url(http://fonts.googleapis.com/css?family=Pathway+Gothic+One|Cinzel);
+@import url(http://fonts.googleapis.com/css?family=Oswald);
+
+body {
+	
+}
+
+.homepage {
+	margin-top: -65px;
+  background: url(swim.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.credits {
+  background: url(photographer.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.registerRow {
+	background-color: rgba(255,255,255,.9);
+	margin-bottom: 10px;
+	width: 700px;
+	margin-left: -15px;
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+	padding-left: 20px;
+	color: rgb(59,78,103);
+}
+.registration {
+  background: url(bike.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.route {
+  background: url(run.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+h1, h2, h3, h4 {
+	font-family: 'Oswald', sans-serif;
+}
+
+h5, h6, p, a, li {
+	font-family: 'Patheway Gothic One', sans-serif;
+	font-size: 1em;
+	
+}
+
+.navbar a {
+	margin-top: 4px;
+}
+.navbar {
+	background-color: rgba(59,78,103,0.6) !important;
+	border-color: transparent;
+	a {
+		color: white !important;
+	}
+	
+}
+.navbar-default .navbar-nav .open .dropdown-menu>li>a,.navbar-default .navbar-nav .open .dropdown-menu {
+    background-color: rgba(59,78,103,0.6);
+    color: white;
+}
+.logo {
+	height: 60px;
+	width: 90px;
+	margin-left: 50px;
+	
+}
+	
+	#footer{
+		background-color: rgba(59,78,103,0.6);
+		li > a:hover {
+			background-color: transparent;
+			    color: lightgrey;
+		}
+	}
+	
+	#footer a{
+		color: white;
+	}
+	
+	#footer .dropdown-menu {
+		background-color: rgba(59,78,103,0.5);
+		
+	}
+	.homeRow {
+		background-color: rgba(59,78,103,0.7);
+		
+		margin-bottom: 10px;
+		width: 350px;
+		margin-left: -15px;
+		border-top-right-radius: 10px;
+		border-bottom-right-radius: 10px;
+		color: white;
+	}
+	.header {
+		background-color: rgba(59,78,103,0.7);
+		border-top-left-radius: 10px;
+		border-bottom-left-radius: 10px;
+		margin-top: 100px;
+		color: white;
+	}
+	
+	.top-line {
+		background-color: rgba(255,255,255,0.9);
+		top: 0;
+		height: 20px;
+		border-top-right-radius: 10px;
+		
+	}

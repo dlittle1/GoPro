@@ -1,5 +1,11 @@
 Rails.application.routes.draw do
 
+  get 'triathlon' => 'triathlon#home'
+  get 'triathlon/registration'
+  get 'triathlon/route'
+  get 'triathlon/sitePlan'
+  get 'triathlon/credits'
+
   get 'blog/start'
   get 'blog/film'
   get 'blog/tutorial'

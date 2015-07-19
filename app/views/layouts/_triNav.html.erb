@@ -1,0 +1,22 @@
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+			<%= link_to "Prison to Prison Triathlon", triathlon_path, class: 'navbar-brand', style: 'margin-left: 5px; font-family: Megrim, cursive; letter-spacing: 1px;' %>
+    </div>
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+			<ul class="nav navbar-nav navbar-right" >
+
+				<li><%= link_to "home", triathlon_path%></li>
+				<li><%= link_to "register", triathlon_registration_path%></li>
+				<li><%= link_to "route", triathlon_route_path%></li>
+			</ul>
+		</div>
+	</div>
+</nav>
