@@ -1,9 +1,28 @@
-<div class="container registerRow text-center col-xs-12 col-md-6">
+<div class="container registerRow text-center col-xs-12 col-md-4" style="margin-bottom: 20px">
 	<h1>Get Registered!</h1>
 	<p>registration costs $100</p>
 	<p>But the $100 is totally worth it! Is money going to stop you from having the time of your life? The time of your life is now, get signed up and join in on the fun!</p>
 	<p>Plus, just by competing in this race, you immediately receive bragging rights for the rest of your life!</p>
-	<%= link_to 'click here to be taken through our secure payment system', '#', class: "btn btn-primary", style: "margin-bottom: 20px;"  %>
+	<form>
+	  <div class="form-group">
+	    <label for="name">First and Last Name</label>
+	    <input type="name" class="form-control" id="name" placeholder="name">
+	  </div>
+	  <div class="form-group">
+	    <label for="Email">Email address</label>
+	    <input type="email" class="form-control" id="Email" placeholder="Email">
+	  </div>
+	  <div class="form-group">
+	    <label for="credit card">Credit Card Number</label>
+	    <input type="password" class="form-control" id="creditCard" placeholder="creditCard">
+		</div>
+	  <div class="checkbox">
+	    <label>
+	      <input type="checkbox">will pay $100 in person at race
+	    </label>
+	  </div>
+	  <button type="submit" class="btn btn-default">Submit</button>
+	</form>
 	<p>Need just a little more motivation? Check out the video!</p>
 </div>
 <div class="container col-xs-12 col-md-5 pull-right">
